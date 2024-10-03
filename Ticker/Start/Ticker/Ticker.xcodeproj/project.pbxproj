@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		733CB7DA2CABE68F00DB442A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 733CB7D92CABE68F00DB442A /* RealityKitContent */; };
-		733CB7ED2CABE76E00DB442A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 733CB7EC2CABE76E00DB442A /* ComposableArchitecture */; };
+		736A75712CAEDF20001C85EC /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 736A75702CAEDF20001C85EC /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		733CB7D42CABE68F00DB442A /* Ticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		733CB7D82CABE68F00DB442A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		736A756B2CAEDF20001C85EC /* Ticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		736A756F2CAEDF20001C85EC /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RealityKitContent; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		733CB7E52CABE69000DB442A /* Exceptions for "Ticker" folder in "Ticker" target */ = {
+		736A757C2CAEDF22001C85EC /* Exceptions for "Ticker" folder in "Ticker" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 733CB7D32CABE68F00DB442A /* Ticker */;
+			target = 736A756A2CAEDF20001C85EC /* Ticker */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		733CB7D62CABE68F00DB442A /* Ticker */ = {
+		736A756D2CAEDF20001C85EC /* Ticker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				733CB7E52CABE69000DB442A /* Exceptions for "Ticker" folder in "Ticker" target */,
+				736A757C2CAEDF22001C85EC /* Exceptions for "Ticker" folder in "Ticker" target */,
 			);
 			path = Ticker;
 			sourceTree = "<group>";
@@ -38,39 +37,38 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		733CB7D12CABE68F00DB442A /* Frameworks */ = {
+		736A75682CAEDF20001C85EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				733CB7ED2CABE76E00DB442A /* ComposableArchitecture in Frameworks */,
-				733CB7DA2CABE68F00DB442A /* RealityKitContent in Frameworks */,
+				736A75712CAEDF20001C85EC /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		733CB7CB2CABE68F00DB442A = {
+		736A75622CAEDF20001C85EC = {
 			isa = PBXGroup;
 			children = (
-				733CB7D62CABE68F00DB442A /* Ticker */,
-				733CB7D72CABE68F00DB442A /* Packages */,
-				733CB7D52CABE68F00DB442A /* Products */,
+				736A756D2CAEDF20001C85EC /* Ticker */,
+				736A756E2CAEDF20001C85EC /* Packages */,
+				736A756C2CAEDF20001C85EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		733CB7D52CABE68F00DB442A /* Products */ = {
+		736A756C2CAEDF20001C85EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				733CB7D42CABE68F00DB442A /* Ticker.app */,
+				736A756B2CAEDF20001C85EC /* Ticker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		733CB7D72CABE68F00DB442A /* Packages */ = {
+		736A756E2CAEDF20001C85EC /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				733CB7D82CABE68F00DB442A /* RealityKitContent */,
+				736A756F2CAEDF20001C85EC /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -78,69 +76,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		733CB7D32CABE68F00DB442A /* Ticker */ = {
+		736A756A2CAEDF20001C85EC /* Ticker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 733CB7E62CABE69000DB442A /* Build configuration list for PBXNativeTarget "Ticker" */;
+			buildConfigurationList = 736A757D2CAEDF22001C85EC /* Build configuration list for PBXNativeTarget "Ticker" */;
 			buildPhases = (
-				733CB7D02CABE68F00DB442A /* Sources */,
-				733CB7D12CABE68F00DB442A /* Frameworks */,
-				733CB7D22CABE68F00DB442A /* Resources */,
+				736A75672CAEDF20001C85EC /* Sources */,
+				736A75682CAEDF20001C85EC /* Frameworks */,
+				736A75692CAEDF20001C85EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				733CB7D62CABE68F00DB442A /* Ticker */,
+				736A756D2CAEDF20001C85EC /* Ticker */,
 			);
 			name = Ticker;
 			packageProductDependencies = (
-				733CB7D92CABE68F00DB442A /* RealityKitContent */,
-				733CB7EC2CABE76E00DB442A /* ComposableArchitecture */,
+				736A75702CAEDF20001C85EC /* RealityKitContent */,
 			);
 			productName = Ticker;
-			productReference = 733CB7D42CABE68F00DB442A /* Ticker.app */;
+			productReference = 736A756B2CAEDF20001C85EC /* Ticker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		733CB7CC2CABE68F00DB442A /* Project object */ = {
+		736A75632CAEDF20001C85EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					733CB7D32CABE68F00DB442A = {
+					736A756A2CAEDF20001C85EC = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 733CB7CF2CABE68F00DB442A /* Build configuration list for PBXProject "Ticker" */;
+			buildConfigurationList = 736A75662CAEDF20001C85EC /* Build configuration list for PBXProject "Ticker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 733CB7CB2CABE68F00DB442A;
+			mainGroup = 736A75622CAEDF20001C85EC;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				733CB7EB2CABE76E00DB442A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 733CB7D52CABE68F00DB442A /* Products */;
+			productRefGroup = 736A756C2CAEDF20001C85EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				733CB7D32CABE68F00DB442A /* Ticker */,
+				736A756A2CAEDF20001C85EC /* Ticker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		733CB7D22CABE68F00DB442A /* Resources */ = {
+		736A75692CAEDF20001C85EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -150,7 +144,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		733CB7D02CABE68F00DB442A /* Sources */ = {
+		736A75672CAEDF20001C85EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,7 +154,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		733CB7E72CABE69000DB442A /* Debug */ = {
+		736A757E2CAEDF22001C85EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -186,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		733CB7E82CABE69000DB442A /* Release */ = {
+		736A757F2CAEDF22001C85EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -212,7 +206,7 @@
 			};
 			name = Release;
 		};
-		733CB7E92CABE69000DB442A /* Debug */ = {
+		736A75802CAEDF22001C85EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		733CB7EA2CABE69000DB442A /* Release */ = {
+		736A75812CAEDF22001C85EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,48 +328,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		733CB7CF2CABE68F00DB442A /* Build configuration list for PBXProject "Ticker" */ = {
+		736A75662CAEDF20001C85EC /* Build configuration list for PBXProject "Ticker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				733CB7E92CABE69000DB442A /* Debug */,
-				733CB7EA2CABE69000DB442A /* Release */,
+				736A75802CAEDF22001C85EC /* Debug */,
+				736A75812CAEDF22001C85EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		733CB7E62CABE69000DB442A /* Build configuration list for PBXNativeTarget "Ticker" */ = {
+		736A757D2CAEDF22001C85EC /* Build configuration list for PBXNativeTarget "Ticker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				733CB7E72CABE69000DB442A /* Debug */,
-				733CB7E82CABE69000DB442A /* Release */,
+				736A757E2CAEDF22001C85EC /* Debug */,
+				736A757F2CAEDF22001C85EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		733CB7EB2CABE76E00DB442A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.15.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		733CB7D92CABE68F00DB442A /* RealityKitContent */ = {
+		736A75702CAEDF20001C85EC /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
-		733CB7EC2CABE76E00DB442A /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 733CB7EB2CABE76E00DB442A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 733CB7CC2CABE68F00DB442A /* Project object */;
+	rootObject = 736A75632CAEDF20001C85EC /* Project object */;
 }

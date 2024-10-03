@@ -15,6 +15,6 @@ struct TickerApp: App {
             HomeView(store: .init(initialState: HomeStore.State(), reducer: {
                 HomeStore()
             }))
-        }.windowStyle(.plain) // Window Type
+        }.windowStyle(.plain)
     }
 }
