@@ -16,10 +16,10 @@ struct SpacesApp: App {
                 AppStore()
             }))
         }.windowStyle(.plain)
-         // TODO: Add Window Resizability Rules
+         // TODO: #23 Add Window Resizability Rules
         
-        // TODO: Add ImmersiveSpace ID: TrainStation
+        // TODO: #24 Add ImmersiveSpace ID: TrainStation
         
-        // TODO: Add ImmersiveSpace ID: ParkingLot
+        // TODO: #25 Add ImmersiveSpace ID: ParkingLot
     }
 }
