@@ -19,5 +19,14 @@ def Xform "Root"
         float3 xformOp:translate = (0.0010416508, 0, 0.018724084)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
+
+    def "SkyDome" (
+        active = true
+        prepend references = @SkyDome.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
 }
 
