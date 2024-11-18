@@ -13,18 +13,18 @@ import RealityKitContent
 struct StationSpaceStore {
     @ObservableState
     struct State: Equatable {
-        // TODO: Add Entity
+        // TODO: #18 Add Entity
     }
     
     enum Action: Equatable {
-        // TODO: Add Load Scene Action
-        // TODO: Add Update Scene Content Action
+        // TODO: #19 Add Load Scene Action
+        // TODO: #20 Add Update Scene Content Action
     }
     
     var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
-                // TODO: Implement Actions
+                // TODO: #21 Implement Actions
             }
         }
     }

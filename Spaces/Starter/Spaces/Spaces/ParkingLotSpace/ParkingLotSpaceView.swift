@@ -7,15 +7,14 @@
 
 import SwiftUI
 import ComposableArchitecture
-// TODO: Add RealityKit
-// TODO: Add RealityKitContent
+// TODO: #11 Add RealityKit
 
 struct ParkingLotSpaceView: View {
     
     @State var store: StoreOf<ParkingLotSpaceStore>
     
     var body: some View {
-        // TODO: Add RealityView
-        Text("ParkingLot Space View")
+        // TODO: #16 Add RealityView
+        Text("Hello, World!")
     }
 }
